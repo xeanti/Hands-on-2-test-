@@ -55,7 +55,7 @@ body{
     margin: 0;
     overflow: auto;
     position: relative;
-    background: url(/pages/hero_5/assets/img/s2000.jpg) center center fixed;
+    background: url(/pages/hero_5/assets/img/s2000.jpg) center fixed;
     background-size: cover;
 }
 .container{
