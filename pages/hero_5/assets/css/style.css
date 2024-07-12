@@ -55,7 +55,18 @@ body{
     margin: 0;
     overflow: auto;
     position: relative;
-    background: url(/pages/hero_5/assets/img/s2000.jpg) no-repeat center center fixed;
+    background: url(./pages/hero_5/assets/img/s2000.jpg) no-repeat center center fixed;
+    background-size: cover;
+}
+body .bg{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    overflow: auto;
+    position: relative;
+    background: no-repeat center center fixed;
     background-size: cover;
 }
 .container{
