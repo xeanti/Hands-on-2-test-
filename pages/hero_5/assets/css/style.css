@@ -55,10 +55,22 @@ body{
     margin: 0;
     overflow: auto;
     position: relative;
+}
+body .bg{
+    color: var(--color-primary-1);
+    background: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    overflow: auto;
+    position: relative;
     background: url(/pages/hero_5/assets/img/s2000.jpg) center fixed;
     background-size: cover;
 }
 .container{
+    background: white;
     position: absolute;
     display: flex;
     margin-right: 90px;
@@ -69,12 +81,6 @@ body{
     border-radius: 8px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     transition: transform 0.3s ease-in-out;
-}
-.container .bg{
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    z-index: -2;
 }
 .container:hover{
     transform: translateY(-5px);
