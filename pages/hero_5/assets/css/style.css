@@ -1,0 +1,117 @@
+.header{
+    margin: 0;
+    padding: 1rem;
+    width: 150vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20vh 0;
+    margin: 0;
+}
+.company-logo{
+    display: flex;
+    height: 50px;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    transition: transform 0.3s ease
+}
+.company-logo:hover{
+    transform: scale(1.1);
+}
+.navigation{
+    display: flex;
+    align-items: center;
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+.nav{
+    color: #ffced3;
+    text-decoration: none;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: italic;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    transition: all ease .5s;
+}
+.nav:hover{
+    font-size: 2rem;
+    transform: scale(1.5);
+    filter: drop-shadow(0 0 15px #546c9c);
+}
+body{
+    color: var(--color-primary-1);
+    background: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    overflow: auto;
+    position: relative;
+    background: url(/pages/hero_5/assets/img/s2000.jpg) no-repeat center center fixed;
+    background-size: cover;
+}
+.container{
+    position: absolute;
+    display: flex;
+    margin-right: 90px;
+    bottom: -5%;
+    left: 10px;
+    width: 30%;
+    background-color: #f5f5f5;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+}
+
+.container:hover{
+    transform: translateY(-5px);
+}
+
+.content{
+    max-width: 800%;
+}
+
+.name{
+    top: 10;
+    font-size: 40px;
+    font-family: "Roboto Condensed", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    color: black;
+    margin-bottom: 10px;
+}
+.name .role img{
+    width: 5rem;
+    padding-right: 10px;
+}
+.name h2{
+    font-size: 40px;
+    font-family: "Roboto Condensed", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    color: goldenrod;
+}
+.description{
+    margin-top: 20px;
+    font-size: 16px;
+    line-height: 1.5;
+}
+.description h3{
+    font-family: "Roboto Condensed", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    color: black;
+    margin-bottom: 10px;
+}

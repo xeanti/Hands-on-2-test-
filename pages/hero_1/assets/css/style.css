@@ -1,0 +1,139 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.header{
+    margin: 0;
+    padding: 1rem;
+    width: 150vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20vh 0;
+    margin: 0;
+}
+.company-logo{
+    display: flex;
+    height: 50px;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    transition: transform 0.3s ease
+}
+.company-logo:hover {
+    transform: scale(1.1);
+}
+.navigation{
+    display: flex;
+    align-items: center;
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+.nav{
+    color: #ffced3;
+    text-decoration: none;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: italic;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    transition: all ease .5s;
+}
+.nav:hover{
+    font-size: 2rem;
+    transform: scale(1.5);
+    filter: drop-shadow(0 0 15px #546c9c);
+}
+body{
+    color: var(--color-primary-1);
+    background: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    overflow: auto;
+    position: relative;
+}
+.civic_logo{
+    z-index: 1;
+    display: flex;
+    justify-content:flex-end;
+    position: absolute;
+    width: 20rem;
+    width: 20rem;
+    bottom: 20px;
+    right: 20px;
+}
+.civic_1{
+    height: 100dvh;
+    width: 100dvw;
+    position: relative;
+    background-image: linear-gradient(to right top, hsla(0, 0%, 3%, 0.932), #fdfdfd);
+    position: absolute;
+    z-index: -1;
+    right: 0;
+    top: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.civic2{
+    position: relative;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: -2;
+    opacity: 100%;
+    right: 0;
+    top: 0;
+    height: 100dvh;
+    width: 100dvw;
+    filter: blur(5px);
+    -webkit-filter: blur(5px);
+}
+.description {
+    display: flex;
+    justify-content: center;
+    padding: 5rem;
+    flex-direction: column;
+}
+.title{
+    color: rgb(255, 250, 239);
+    font-size: 5vw;
+    font-family: "Bruno Ace", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    margin: 0;
+    color: #fff;
+    text-shadow: 0 0 7px #fff, 0 0 42px #f80505;
+}
+.role{
+    font-size: 30px;
+    color: rgb(255, 250, 239);
+    font-family: "Bruno Ace", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    margin: 0;
+    text-shadow: 0 0 7px #fff, 0 0 42px #f80505;
+}
+.type{
+    width: 5rem;
+    padding-right: 10px;
+}
+.info{
+    font-size: 30px;
+    color: rgb(255, 250, 239);
+    font-family: "Bruno Ace", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    margin: 0;
+    text-shadow: 0 0 7px #fff, 0 0 42px #f80505;
+}
