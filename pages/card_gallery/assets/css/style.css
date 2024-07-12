@@ -240,7 +240,6 @@ body{
 .card_5{
     background-color: #ffffff;
     border-radius: 10px;
-    border: 2px solid #e0e0e0;
     width: 300px;
     overflow: hidden;
     font-family: "Inconsolata", monospace;
@@ -506,7 +505,6 @@ body{
 .animated_5{
     background-color: #ffffff;
     border-radius: 10px;
-    border: 2px solid #e0e0e0;
     width: 300px;
     overflow: hidden;
     font-family: "Inconsolata", monospace;
