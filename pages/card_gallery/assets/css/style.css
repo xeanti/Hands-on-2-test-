@@ -243,6 +243,7 @@ body{
     width: 300px;
     overflow: hidden;
     font-family: "Inconsolata", monospace;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 .card_5 .img{
     position: relative;
